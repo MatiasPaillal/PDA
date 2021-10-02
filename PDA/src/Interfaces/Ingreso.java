@@ -97,7 +97,10 @@ public class Ingreso extends javax.swing.JFrame {
     }//GEN-LAST:event_ingresarClienteActionPerformed
 
     private void ingresarAdminActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ingresarAdminActionPerformed
-        // TODO add your handling code here:
+        IngresoAdmin admin = new IngresoAdmin();
+        admin.setVisible(true);
+        this.setVisible(false);
+ 
     }//GEN-LAST:event_ingresarAdminActionPerformed
 
     /**
